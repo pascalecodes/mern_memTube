@@ -93,11 +93,12 @@ const Menu = ({darkMode, setDarkMode}) => {
             MemTube
         </Logo>
       </Link>
+      <Link to="/" style={{textDecoration:"none", color:"inherit"}}>
         <Item>
             <HomeIcon/>
             Home
         </Item>
-        
+        </Link>
         <Item>
             <ExploreOutlinedIcon />
             Explore
